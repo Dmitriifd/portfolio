@@ -69,14 +69,14 @@
 			<section class="filters container">
 				<!--=============== FILTERS TABS ===============-->
 				<ul class="filters__content">
-					<button class="filters__button filter-tab-active" data-target="#react">React</button>
+					<button class="filters__button filter-tab-active" data-target="#layout">Верстка</button>
 					<button class="filters__button" data-target="#js">JavaScript</button>
-					<button class="filters__button" data-target="#layout">Верстка</button>
+					<button class="filters__button" data-target="#react">React</button>
 				</ul>
 
 				<div class="filters__sections">
 					<!--=============== PROJECTS ===============-->
-					<div class="projects__content grid filters__active" data-content id="react">
+					<div class="projects__content grid" data-content id="react">
 						<article class="projects__card">
 							<img src="assets/img/pizza.jpg" alt="" class="projects__img" />
 
@@ -141,6 +141,18 @@
 						</article>
 					</div>
 					<div class="projects__content grid" data-content id="js">
+             <article class="projects__card">
+							<img src="assets/img/calc.jpg" alt="" class="projects__img" />
+
+							<div class="projects__modal">
+								<div>
+									<span class="projects__subtitle">JavaScript</span>
+									<h3 class="projects__title">Калькулятор расчета ипотеки</h3>
+									<a href="https://dmitriifd.github.io/calc-js/" class="projects__button button button__small" target="_blank"> Демо </a>
+									<a href="https://github.com/Dmitriifd/calc-js" class="projects__button button button__small" target="_blank"> GitHub </a>
+								</div>
+							</div>
+						</article>
              <article class="projects__card">
 							<img src="assets/img/quizm.jpg" alt="" class="projects__img" />
 
@@ -323,7 +335,7 @@
 						</article>
 						
 					</div>
-					<div class="projects__content grid" data-content id="layout">
+					<div class="projects__content grid filters__active" data-content id="layout">
 						 <article class="projects__card">
 							<img src="assets/img/flowers.jpg" alt="" class="projects__img" />
 
